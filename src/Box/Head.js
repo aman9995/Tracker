@@ -9,7 +9,7 @@ export const Head = () =>{
             <div className="container">
                 <div className="header-left">
                     <h3>COVID-19 Tracker</h3><br/>
-                    <img  className = "img" src = {img}/>
+                    <img  className = "img" src = {img} alt = "img"/>
                 </div>
                 <div className="header-right">
                     <a href="https://amazing-noether-f70b8c.netlify.app/" target="_blank" rel="noreferrer" className="login">Contact us</a>
