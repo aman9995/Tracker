@@ -1,0 +1,12 @@
+.table{
+    overflow: scroll;
+    height: 400px;
+    color: rgba(39, 38, 38, 0.733);
+}
+
+.table tr:nth-of-type(odd){
+    background-color: honeydew;
+}
+.table td{
+    padding : 0.5rem;
+}

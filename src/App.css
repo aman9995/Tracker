@@ -1,0 +1,59 @@
+body{
+  background-color: #f5f6fa;
+}
+
+.dropdown{
+  margin-top: 220px;
+  margin-left: 30px;
+}
+.status{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 190px;
+}
+
+.aa{
+  display: flex;
+  margin-left: 40px;
+  justify-content: space-between;
+}
+.track{
+  display: flex;
+  justify-content: space-evenly;
+}
+.track-right{
+  margin-top: 190px;
+  margin-left: 70px;
+  width: 350px;
+}
+
+.foot{
+  margin-top: 50px;
+  height: 350px;
+}
+
+.casebox{
+  height: 130px;
+  width: 170px;
+  margin-right: 5px;
+}
+.container-left{
+  float: left;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.container-right{
+  float: right;
+  margin-right: 70px;
+}
+.container-left h5{
+  margin-left: 50px;
+}
+.footer-copyright {
+  margin-top: 270px;
+}
+.btn a{
+  color: white;
+  display: block;
+  text-decoration: none;
+}
