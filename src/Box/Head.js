@@ -21,7 +21,7 @@ export const Head = () =>{
                     <a href="https://stoic-agnesi-093d6f.netlify.app/" target="_blank" rel="noreferrer" className="login">Requirement Form</a>
                 </div>
                 <div className="header-right">
-                    <a href="#" className="login">Home</a>
+                    <p>Home</p>
                 </div>
             </div>
         </div>
