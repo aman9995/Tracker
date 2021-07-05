@@ -3,7 +3,6 @@ import React, {useState, useEffect} from 'react'
 import {Casebox} from "./Box/Casebox";
 import {Head} from "./Box/Head";
 import {Table} from "./Box/Table";
-import {sortData} from "./list";
 import {Graph} from "./Box/Graph";
 import "leaflet/dist/leaflet.css";
 import Map from "./Box/Map";
@@ -13,14 +12,12 @@ import {MenuItem, FormControl, Select, Card, CardContent} from "@material-ui/cor
 export default function App () {
 
   const [countries, setCountries] = useState([]);
-  const [country, setCountry] = useState('Worldwide');
-  const [countryInfo, setCountryInfo] = useState([]);
   const [tableData, setTableData] = useState([]);
   const [casesType, setCasesType] = useState("cases");
   const [mapCountries, setMapCountries] = useState([]);
   const [stateCode, setStateCode] = useState([]);
-  const [mapCenter, setMapCenter] = useState([34.80746, 5.4796]);
-  const [zoom, setZoom] = useState(1.5);
+  const mapCenter = [34.80746, 5.4796];
+  const zoom = (1.5);
 
 
   useEffect(() => {
