@@ -16,7 +16,7 @@ export const Footer = () => {
                             Mohammad Atif
                         </p>
                         <button type="button" class="btn btn-dark" >
-                        <a href="https://amazing-noether-f70b8c.netlify.app/" target="_blank" className="login">Contact us</a>
+                        <a href="https://amazing-noether-f70b8c.netlify.app/" target="_blank" rel="noreferrer" className="login">Contact us</a>
                         </button>
                     </ol>
                 </div><br/>
