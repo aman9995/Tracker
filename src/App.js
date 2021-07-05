@@ -38,7 +38,7 @@ useEffect(() => {
     fetch("https://disease.sh/v3/covid-19/countries")
       .then((response) => response.json())
       .then((data) => {
-        const countries = data.map((country) => ({
+          data.map((country) => ({
           name: country.country,
           value: country.countryInfo.iso2,
         }));
