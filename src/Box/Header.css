@@ -33,6 +33,14 @@
     display: block;
     text-decoration: none;
   }
+ .header-right p {
+    line-height: 33px;
+    padding: 0 30px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    margin-top: 7px;
+  }
   .header-left{
       float: left;
       margin : 20px 10px;
